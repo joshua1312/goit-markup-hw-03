@@ -1,0 +1,137 @@
+body {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #434455;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.middle-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+
+.bottom-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.link {
+    font-weight: 500;
+    color: #2e2f42;
+}
+
+.link-second {
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.all-contacts {
+    font-style: normal;
+}
+
+.part-first {
+    background-color: #2e2f42;
+}
+
+.part-third {
+    background-color: #F4F4FD;
+}
+
+.list-part-third {
+    background-color: #FFFFFF;
+}
+
+.press {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+}
+
+.text-footer {
+    color: #f4f4fd;
+    background-color: #2e2f42;
+}
+
+.logo-header,
+.logo-footer,
+.end-logo-footer,
+.end-logo-header {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.end-logo-footer {
+    color: #f4f4fd;
+}
+
+.end-logo-header {
+    color: #2e2f42;
+}
+
+.logo-header,
+.logo-footer {
+    color: #4d5ae5;
+}
+
+.text {
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+.text-footer .logo-header .end-logo-footer:hover,
+.text-footer .logo-header .end-logo-footer:focus,
+.text-footer .logo-footer:hover,
+.text-footer .logo-footer:focus,
+.nav-header .logo-header:hover,
+.nav-header .logo-header:focus,
+.nav-header .logo-header .end-logo-header:hover,
+.nav-header .logo-header .end-logo-header:focus,
+.menu-header .link:hover,
+.menu-header .link:focus,
+.contacts .link-second:hover,
+.contacts .link-second:focus {
+    color: #404bbf;
+}
+
+.part-first .press:hover,
+.part-first .press:focus {
+    background-color: #404BBF;
+}
+
+.main-text-footer {
+    letter-spacing: 0.02em;
+}
