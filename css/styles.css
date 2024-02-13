@@ -42,43 +42,43 @@ a {
 .container {
     max-width: 1158px;
     margin: 0 auto;
-    padding: 0
+    padding: 0 15px;
 }
 
-.section {
+.all-section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
 
-.main-title {
+.first-title {
     font-weight: 700;
     font-size: 56px;
+    max-width: 496px;
+    margin-left: 331px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    padding-top: 24px;
-    padding-bottom: 48px;
-    padding-left: 290px;
-    padding-right: 290px;
 }
 
-.press {
+.press-key {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    margin-left: 495px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     font-weight: 500;
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.04em;
     color: #ffffff;
-    cursor: pointer;
     background-color: #4D5AE5;
-    padding: 12px 24px;
-    border-radius: 4px;
-    margin-top: 0;
-    margin-left: 495px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-.middle-title {
+.second-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
@@ -86,31 +86,37 @@ a {
     text-transform: capitalize;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 
-.title-second {
-    display: none;
+.second-title-hide {
+    visibility: hidden;
 }
 
-.bottom-title {
+.features {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.third-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
-.card-background {
-    display: block;
-    padding-top: 32px;
+.man-card {
+    padding: 32px 0;
     background-color: #FFF;
     text-align: center;
+    margin-bottom: 8px;
 }
 
 .link {
     font-weight: 500;
     color: #2e2f42;
+    padding: 24px 0;
 }
 
 .link-second {
@@ -124,6 +130,7 @@ a {
 
 .part-first {
     background-color: #2e2f42;
+    padding: 188px 0
 }
 
 .part-second {
@@ -131,37 +138,53 @@ a {
     gap: 24px;
 }
 
-.list-team {
-    padding-top: 72px;
+.listing-team {
     display: flex;
     gap: 24px;
 }
 
-.list-portfolio {
+.listing-part-third {
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.listing-portfolio {
     padding-top: 72px;
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    column-gap: 24px;
+    row-gap: 48px;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.list-portfolio .item {
-    max-width: calc((100% - 24px) / 3);
+.listing-portfolio .iteming {
+    width: calc((100% - 48px) / 3);
 }
 
 .part-third {
     background-color: #F4F4FD;
 }
 
-.text-colors {
+.texting-app {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.texting-colors {
     color: #f4f4fd;
     background-color: #2e2f42;
     padding-left: 132px;
     padding-top: 100px;
     padding-bottom: 100px;
     padding-right: 750px;
+}
+
+.header-container {
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container,
@@ -179,12 +202,12 @@ a {
 
 .menu-header,
 .contacts {
-    gap: 32px;
+    gap: 40px;
 }
 
 .logo-header {
-    margin-left: 125px;
-    margin-right: 60px;
+    margin-left: 100px;
+    margin-right: 76px;
     padding-top: 24px;
     padding-bottom: 24px;
 }
@@ -201,12 +224,12 @@ a {
     text-transform: uppercase;
 }
 
-.end-logo-footer {
-    color: #f4f4fd;
-}
-
 .end-logo-header {
     color: #2e2f42;
+}
+
+.end-logo-footer {
+    color: #f4f4fd;
 }
 
 .logo-header,
@@ -214,8 +237,21 @@ a {
     color: #4d5ae5;
 }
 
-.text {
-    font-size: 16px;
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.text-footer {
+    padding: 100px 0;
+}
+
+.texting {
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.texting-second {
     letter-spacing: 0.02em;
 }
 
@@ -234,12 +270,11 @@ a {
     color: #404bbf;
 }
 
-.part-first .press:hover,
-.part-first .press:focus {
+.part-first .press-key:hover,
+.part-first .press-key:focus {
     background-color: #404BBF;
 }
 
 .main-text-footer {
-    padding-top: 16px;
     letter-spacing: 0.02em;
 }
