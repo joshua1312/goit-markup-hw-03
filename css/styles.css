@@ -145,7 +145,6 @@ a {
 .first-section {
     padding: 188px 0;
     background-color: #2e2f42;
-
 }
 
 .part-second {
@@ -187,16 +186,6 @@ a {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
-}
-
-.texting-colors {
-    color: #f4f4fd;
-    background-color: #2e2f42;
-    padding-left: 132px;
-    padding-top: 100px;
-    padding-bottom: 100px;
-    padding-right: 750px;
 }
 
 .page-header {
@@ -255,6 +244,7 @@ a {
 
 .texting-footer {
     padding: 100px 0;
+    background-color: #2e2f42;
 }
 
 .texting {
@@ -287,4 +277,6 @@ a {
 
 .main-text-footer {
     letter-spacing: 0.02em;
+    max-width: 264px;
+    color: #f4f4fd;
 }
